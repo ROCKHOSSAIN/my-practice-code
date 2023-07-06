@@ -30,3 +30,122 @@
     background-color: gray;
     cursor: pointer;
 }
+.section1-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #99DBF5;
+}
+h5{
+    font-size: 35px;
+}
+h1{
+    font-size: 50px;
+}
+.company-about{
+    font-size: 25px;
+}
+.cv{
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(219, 154, 33);
+    color: white;
+    border: none;
+    margin-top: 35px;
+    font-size: 20px;
+    
+
+
+}
+.contact-1{
+    margin-left: 30px;
+    width: 100px;
+    background-color: white;
+    border: 3px solid orange;
+    color: orange;
+    
+}
+.section-2{
+    text-align: center;
+    padding: 60px;
+    height: 40vh;
+    background-color: #A7ECEE;
+}
+.text-1{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.info{
+   
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+.item{
+    padding: 90px;
+    font-size: 20px;
+    list-style: none;
+}
+span{
+    font-size: 30px;
+    padding: 18px;
+    font-weight: bolder;
+}
+.section-3{
+    /* background-color: #9AC5F4; */
+    text-align: center;
+    height: 80vh;
+    background-image: url('img/section-3.jpg') ;
+    color: white;
+}
+.sec-3{
+    font-size: 20px;
+}
+.doing{
+padding: 30px;
+
+}
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+
+}
+.fonts{
+    color: rgb(185, 185, 44);
+    font-size: 55px;
+}
+.lan-1,.lan-2,.lan-3,.lan-4{
+    height: 200px;
+    width: 200px;
+    line-height:1.5rem;
+    
+}
+h2{
+margin: 20px 0;
+}
+.resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.resume{
+    height: 70vh;
+    padding: 20px;
+    background-color: bisque;
+
+}
+.edu{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.edu-2,.edu-3{
+    margin-bottom: 0.8rem;
+}
+.cv-2{
+    margin-left: 50%;
+}
