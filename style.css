@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    display: flex;
+    background-color: #9AC5F4;
+    padding: 1px;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.logo{
+    width: 140px;
+    
+}
+.menus{
+    display: flex;
+
+}
+.items{
+    list-style: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.items:hover{
+    background-color: gray;
+    cursor: pointer;
+}
