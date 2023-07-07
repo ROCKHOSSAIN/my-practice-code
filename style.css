@@ -161,13 +161,14 @@ margin: 20px 0;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    
 }
 .gallery-1{
     width: 300px;
     margin: 10px 10px;
 }
 .gallary-images{
-    height: 90vh;
+    height: 100vh;
     background-color: #E3DFFD;
 }
 .gallery-1-2{
