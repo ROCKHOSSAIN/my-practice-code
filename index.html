@@ -6,6 +6,11 @@
     <title>DEMO PROJECT</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Open+Sans:wght@400;700;800&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -17,7 +22,8 @@
         <div class="menus">
             <li class="items">Portfolio</li>
             <li class="items">Blog</li>
-            <li style="background-color: orange;" class="items">Hire me</li>
+            <li><button class="cv head-btn">Hire Me</button></li>
+            <!-- <li style="background-color: orange;" class="items">Hire me</li> -->
         </div>
     </div>
 </nav>
@@ -25,12 +31,14 @@
     <!-- 1st section start -->
     <section>
         <div class="section1-container">
+            <div><img class="developer-img" src="img/developer.png" alt=""></div>
             <div class="details">
+                
                 <h5>Hi,I am  </h5>
         <h1>Rocky Hossain</h1>
         <p class="company-about">I am the CEO of this company <br>I am ready to deal with you about my project</p>
-      <button class="cv"> <a class="cv" href="img/cv.jpg">Download CV</a></button> 
-        <button class="cv contact-1">Contact</button>
+      <button class="cv"><i class="fa-solid fa-download"></i> <a class="cv" href="img/cv.jpg">Download CV</a></button> 
+            <button class="cv ">Contact</button>
             </div>
             <div class="photo">
                 <img src="img/My project.png " alt="logo" download>
@@ -118,6 +126,7 @@
                 <h3 class="edu-2">Maters In Computer Engineering</h3>
                 <p  class="edu-3">Harvard University(2013-2017) <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, qui!</p>
+                <hr>
 
             </div>
             <div class="2nd-edu">
@@ -126,12 +135,14 @@
                 <p class="edu-3">Boston University(2015-2017) <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, qui!</p>   
             </div>
+            <hr>
             <div class="3nd-edu">
                 <h1 class="edu">My Education</h1>
                 <h3 class="edu-2">PHD In Computer Engineering</h3>
                 <p class="edu-3">Standford University(2017-2023) <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, qui!</p>
             </div>
+            <hr>
         </div>
 
             <div class="my-experience">
@@ -141,12 +152,15 @@
                 <p class="edu-3">GOOGLE (2015-2016)<br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, qui!</p>
                 </div>
+                <hr>
+                
                 <div class="2nd-exp">
                     <h1 class="edu">My Experience</h1>
                 <h3 class="edu-2">I had been  in MICROSOFT</h3>
                 <p class="edu-3">MICROSOFT(2017-2019) <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, qui!</p>
                 </div>
+                <hr>
                 <div class="2nd-exp">
                     <h1 class="edu">My Experience</h1>
                 <h3 class="edu-2">I have been in AMAZON </h3>
@@ -156,7 +170,7 @@
            
         </div>
     </div>
-    <button class="cv cv-2"> <a class="cv" href="img/cv.jpg">Download CV</a></button> 
+    <button class="cv cv-2"><i class="fa-solid fa-download"></i>  <a class="cv" href="img/cv.jpg">Download CV</a></button> 
 
 </section>
 
@@ -198,8 +212,11 @@
             <form action="#" method="post">
                 <input type="text" placeholder="Enter your first name">
                 <input type="text" placeholder="Enter your last name">
-                <textarea style=" margin-left: 28px;" cols="30" rows="10" placeholder="Message"></textarea>
-                <button class="cv cv-2 ">Submit</button>
+                <textarea style=" margin-left: 28px;" cols="30" rows="10"    placeholder="Message"></textarea>
+                
+               <div>
+                <button class="btn-form ">Submit</button>
+               </div>
     </fieldset>
     
 

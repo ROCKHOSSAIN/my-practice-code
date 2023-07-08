@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
 }
+/* body{
+font-family: 'Dancing Script', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+} */
 .menu-container{
     display: flex;
     background-color: #9AC5F4;
-    padding: 1px;
     align-items: center;
     justify-content:space-around;
 
+}
+.developer-img{
+    height: 600px;
 }
 .logo{
     width: 140px;
@@ -24,11 +32,15 @@
     color: white;
     font-size: 20px;
     text-transform: uppercase;
+    margin: auto;
 
 }
 .items:hover{
     background-color: gray;
     cursor: pointer;
+}
+.menus li{
+    list-style: none;
 }
 .section1-container{
     display: flex;
@@ -51,9 +63,11 @@ h1{
     background-color: rgb(219, 154, 33);
     color: white;
     border: none;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     font-size: 20px;
     transition: transform 1s;
+    margin: 30px 4px;
+    
 
     
 
@@ -141,6 +155,11 @@ margin: 20px 0;
     align-items: center;
     justify-content: space-around;
 }
+.resume-container hr{
+    margin: 10px 10px;
+    border:1px solid rgb(138, 112, 82);
+    opacity: 0.5;
+}
 .resume{
     height: 70vh;
     padding: 20px;
@@ -224,6 +243,12 @@ input{
     border-radius: 5px;
     width: 300px;
 }
-button .btn-3{
-    /* padding-right: 20px; */
+.btn-form{
+    padding: 20px;
+    background-color: orange;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
