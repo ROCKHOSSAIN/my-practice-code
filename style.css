@@ -10,14 +10,16 @@ font-family: 'Roboto Slab', serif;
 } */
 .menu-container{
     display: flex;
-    background-color: #9AC5F4;
+    background-color: #0FA3B1;
     align-items: center;
     justify-content:space-around;
 
 }
 .developer-img{
     height: 600px;
+    
 }
+
 .logo{
     width: 120px;
     
@@ -46,7 +48,10 @@ font-family: 'Roboto Slab', serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #99DBF5;
+    /* background-color: #99DBF5; */
+    background-image:url("img/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 h5{
     font-size: 35px;
@@ -91,7 +96,7 @@ h1{
     text-align: center;
     padding: 60px;
     height: 40vh;
-    background-color: #A7ECEE;
+    background-color:#B5E2FA;
 }
 .text-1{
     margin-top: 20px;
@@ -119,8 +124,9 @@ span{
     /* background-color: #9AC5F4; */
     text-align: center;
     height: 80vh;
-    background-image: url('img/blue-2.jpg') ;
-    color: white;
+    /* background-image: url('img/blue-2.jpg') ; */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 .sec-3{
     font-size: 20px;
@@ -138,7 +144,7 @@ padding: 30px;
 
 }
 .fonts{
-    color: rgb(185, 185, 44);
+    color: #EDDEA4;
     font-size: 55px;
 }
 .lan-1,.lan-2,.lan-3,.lan-4{
@@ -188,7 +194,7 @@ margin: 20px 0;
 }
 .gallary-images{
     height: 100vh;
-    background-color: #E3DFFD;
+    background-color: #ffffff;
 }
 .gallery-1-2{
     width: 300px;
@@ -227,8 +233,9 @@ margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 60vh;
-    background-color: #F3BCC8;
+    height: 70vh;
+    background-color: #df8e62;
+    padding-top: 40px;
 }
 .fill-form input{
     display: block;
